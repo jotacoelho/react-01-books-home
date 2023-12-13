@@ -1,3 +1,5 @@
+import './estiloOpcoes.css'
+
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']; // lista para facilitar modificação dos itens
 
 function OpcoesHeader(){
