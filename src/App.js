@@ -1,5 +1,6 @@
 import Header from './componentes/Header/indexHeader';
 import Pesquisa from './componentes/Pesquisa/indexPesquisa';
+import UltimosLancamentos from './componentes/UltimosLancamentos/indexUltimosLancamentos';
 import styled from 'styled-components';
 
 const AppContainer = styled.div`
@@ -17,9 +18,10 @@ function App() {
   return (
     <AppContainer>
       <Header></Header>
-      {/* <Titulo>DELICINHA MT LINDONAA</Titulo> */}
-      <Pesquisa/>
+      <Pesquisa/>      
+      <UltimosLancamentos/>
     </AppContainer>
+    
   );
 }
 
